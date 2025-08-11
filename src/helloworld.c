@@ -1,10 +1,10 @@
 #include "raylib.h"
 
 int main(void) {
-    // Init window: width, height, title
-    InitWindow(800, 450, "Hello, Raylib!");
+    // width, height, title
+    InitWindow(1200, 800, "FP-Raylib");
 
-    SetTargetFPS(60); // Run at 60 frames per second
+    SetTargetFPS(80);
 
     // Main game loop
     while (!WindowShouldClose()) { // Detect window close or ESC
@@ -14,6 +14,6 @@ int main(void) {
         EndDrawing();
     }
 
-    CloseWindow(); // Clean up
+    CloseWindow();
     return 0;
 }
