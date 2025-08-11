@@ -1,8 +1,10 @@
 #include "raylib.h"
 
 int main(void) {
+    SetConfigFlags(FLAG_FULLSCREEN_MODE);
+
     // width, height, title
-    InitWindow(1200, 800, "FP-Raylib");
+    InitWindow(1, 1, "FP-Raylib");
 
     SetTargetFPS(80);
 
